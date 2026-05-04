@@ -83,6 +83,16 @@ go build -o xpostwatch main.go
 ./xpostwatch -user golang -interval 10m
 ```
 
+For macOS, you can also move it somewhere in your PATH:
+```bash
+sudo mv xpostwatch /usr/local/bin/
+```
+
+Then run it from anywhere:
+```bash
+xpostwatch -user xdevelopers -interval 10m
+```
+
 ## Options
 
 | Flag | Description | Default |
